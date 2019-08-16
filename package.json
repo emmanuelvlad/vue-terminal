@@ -1,6 +1,6 @@
 {
   "name": "@evlad/vue-terminal",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Terminal based on vue",
   "main": "dist/vue-terminal.umd.js",
   "module": "dist/vue-terminal.esm.js",
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/EmmanuelVlad/vue-terminal#readme",
   "dependencies": {
+    "@evlad/vue-terminal-ui": "^0.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

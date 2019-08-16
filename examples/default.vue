@@ -8,8 +8,7 @@
 
 <script>
 /* eslint-disable */
-// import { VueTerminalUI } from "@evlad/vue-terminal"
-import VueTerminalUI from "../src/VueTerminalUI.vue";
+import VueTerminalUI from "@evlad/vue-terminal-ui"
 import { setTimeout } from 'timers';
 
 export default {

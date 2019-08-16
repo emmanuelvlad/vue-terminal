@@ -14,39 +14,6 @@ npm install @evlad/vue-terminal
 
 > The list of components that it exports
 
-### VueTerminalUI
-
-Only the UI part of the terminal without any commands
-
-Here is an example
-
-**Template**
-```html
-<vue-terminal-ui
-  ref="my-terminal-ui"
-  prefix="user@host:"
-  @triggerCommand="doSomething"
-/>
-```
-
-**Script**
-```js
-import { VueTerminalUI } from "@evlad/vue-terminal"
-
-export default {
-  ...
-
-  methods: {
-    doSomething(command, args) {
-      if (command === "addLine" && args.length > 0) {
-        this.$refs["my-terminal-ui"].$emit("write", args[0]);
-      }
-    }
-  }
-}
-```
-
-
 ### VueTerminal
 
 todo
